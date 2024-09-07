@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import Button from "../../UI/Button/Button";
-import "./CourseInput.css";
 
 const FromControl = styled.div`
   margin: 0.5rem 0;
-  
 
   & label {
     font-weight: bold;
@@ -13,7 +11,6 @@ const FromControl = styled.div`
     margin-bottom: 0.5rem;
     color: ${(props) => (props.invalid ? "red" : "black")};
   }
-  
 
   & input {
     display: block;
